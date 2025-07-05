@@ -19,7 +19,7 @@ public class Task {
     private String description;
 
     @Enumerated(EnumType.STRING)
-    private TaskStatus status; // Enum: TODO, IN_PROGRESS, DONE
+    private TaskStatus status; 
 
     private LocalDate dueDate;
 
