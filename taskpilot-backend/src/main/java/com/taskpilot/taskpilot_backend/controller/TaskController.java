@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/tasks")
-@CrossOrigin(origins = "http://localhost:8081") // Permitir requisições do seu frontend (ajuste a porta se necessário)
+@CrossOrigin(origins = "http://localhost:8081") 
 public class TaskController {
 
     @Autowired
