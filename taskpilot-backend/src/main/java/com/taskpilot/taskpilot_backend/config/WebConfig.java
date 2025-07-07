@@ -10,7 +10,7 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/api/**") // Permite CORS para todos os endpoints sob /api
-                .allowedOrigins("http://localhost:8081", "http://127.0.0.1:8081", "https://gerenciamento-projetos-seven.vercel.app/") 
+                .allowedOrigins("http://localhost:8081", "http://127.0.0.1:8081", "https://gerenciamento-projetos-seven.vercel.app") 
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
                 .allowCredentials(true);
